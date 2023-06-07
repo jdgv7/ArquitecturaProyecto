@@ -19,7 +19,7 @@ class Record(DataHolder[str]):
 
         self.name = ""
         self.color = constants.PURPLE
-        self.font_color = constants.WHITE
+        self.font_color = constants.BLACK
 
         super().__init__(None)
 
